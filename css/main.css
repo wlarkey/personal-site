@@ -8,17 +8,37 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
 }
 
+nav {
+  transition: top 0.25s ease-in-out;
+  height: 50px;
+}
+
 .navbar {
   margin-bottom: 0px;
+  background: #2a313d;
+}
+
+.nav-scroll {
+
+}
+
+.nav-up {
+    top: -50px;
 }
 
 .jumbotron {
     height: 100vh;
     background-image: url('../pics/background.JPG');
     background-size: cover;
+}
+
+.welcome {
+  text-align: center;
+  text-shadow: 2px 2px #545454;
+  padding-top: 50px;
+  color: #f4f4f4;
 }
