@@ -1,7 +1,7 @@
 function loadcontent() {
 
   var page = document.getElementById('mainpage');
-  var sidebar = document.getElementById('sidebar');
+  var aside = document.getElementById('sidebar');
   var content = '';
 
   var numOfArticles = 10;
@@ -20,11 +20,11 @@ function loadcontent() {
   counter = 0;
 
   while(counter < numOfSide) {
-    content = content + '<div class="jumbotron"> SideBar! <br /> </div>';
+    content = content + '<div class="jumbotron"> AFGFDA! <br /> </div>';
     counter++;
   }
 
-  sidebar.innerHTML = content;
+  aside.innerHTML = content;
 
   // RESET COUNTERS
   content = '';
