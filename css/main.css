@@ -7,8 +7,6 @@ body {
     background: #2a313d;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #f4f4f4;
-    font-family: "Helvetica", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
     margin: 0 auto;
 }
 
@@ -38,9 +36,21 @@ a {
     color: #ffffff;
 }
 
-.active {
+active {
     background-color: #ffffff;
     color: #ffffff;
+}
+
+.article_title {
+  font-size: 14pt;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.article_text {
+  padding-left: 30px;
+  padding-top: 0px;
+  font-size: 10pt;
 }
 
 .navbar {
