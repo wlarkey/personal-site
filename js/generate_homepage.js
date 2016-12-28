@@ -14,10 +14,15 @@ function loadcontent() {
   var numOfSide = 5;
   var counter = 0;
 
+  // Removes ">" at beggining of page
+  $("body").contents().filter(function(){
+    return (this.nodeType == 3);
+  }).remove();
+
   while(counter < numOfArticles) {
     content = content + '<div class="jumbotron" style="margin-right: 25px;">' +
     ' <div class="article_title">' +
-    ' <p>' + article + '</p> <br />' +
+    ' <h3>' + article + '</h3> <br />' +
     ' </div>' +
     ' <div class="article_text">' +
     ' <p>' + article_text + '</p> <br />' +
