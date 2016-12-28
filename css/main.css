@@ -1,6 +1,8 @@
 
 html {
     background: #969696;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -8,6 +10,8 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #f4f4f4;
     margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 button {
@@ -55,16 +59,6 @@ active {
     top: -50px;
 }
 
-.jumbotron #welcome {
-  background-image: url('../pics/background.JPG');
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-  text-shadow: 2px 2px #545454;
-  padding-top: 50px;
-  color: #f4f4f4;
-}
-
 .jumbotron {
   background: #969696;
   outline-style: solid;
@@ -72,7 +66,17 @@ active {
   outline-width: 1px;
   box-shadow: 3px 3px 2px #040404;
   padding-top: 50px;
-  margin-top: 0px;
+}
+
+.jumbotron #welcome {
+  background-image: url('../pics/background.JPG');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  text-shadow: 2px 2px #545454;
+  padding-top: 50px;
+  padding: 50px;
+  color: #f4f4f4;
 }
 
 .jumbotron h3 {
@@ -91,10 +95,30 @@ active {
   padding-top: 0px;
 }
 
-.jumbotron #footer {
-  margin: none;
-  padding: none;
+#footer {
+  margin: 0px;
+  padding-top: 25px;
   border: none;
+  padding-bottom: 5px;
+}
+
+#footer h4{
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+
+#footer h5{
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+#footer p{
+  position: relative;
   text-align: right;
-  padding-right: 25px;
 }
