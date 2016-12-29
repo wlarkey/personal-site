@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Wyatt Larkey - Home</title>
+    <title>Wyatt Larkey - Info</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -12,7 +12,8 @@
     <script type="text/javascript" src="js/generate_homepage.js"></script>>
   </head>
 
-  <body onload="loadcontent()">
+  <!--<body onload="loadInfo()">-->
+  <body>
     <nav class="nav-up navbar navbar-inverted navbar-fixed-top">
       <div class="container">
           <div class="navbar-header">
@@ -36,38 +37,29 @@
 
     <div class="jumbotron" style="padding: 0px;">
       <div id="welcome">
-        <h1>Hello World!</h1>
-        <h3>Wyatt Larkey's Offical Webpage</h3>
+        <h1>Who is Wyatt Larkey?</h1>
+        <h3>Here you can find a little about me, my resume, and links to some of my work.</h3>
       </div>
     </div>
 
-<div class="container">
-    <div class="row">
-        <p></p>
+    <div class="container">
+        <div class="row">
+            <p></p>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <script src="js/generate_homepage.js"></script>
+              <div id="mainpage">
 
-        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-            <h4 id="sidebar_title">Quicklooks</h4>
-            <h5 id = "sidebar_description">Quick links to content</h5>
-            <div id="sidebar">
-
+              </div>
             </div>
         </div>
-
-        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-          <script src="js/generate_homepage.js"></script>
-          <div id="mainpage">
-
-          </div>
-        </div>
-
-    </div>
-  </div>
+      </div>
 
     <div class="jumbotron" id="footer">
           <h4>"Inspirational quote that makes me look smart and insightful"</h4>
           <h5>- Wyatt Larkey</h5>
           <br />
           <p>Copyright &copy; 2016</p>
-      </div>
+    </div>
+
   </body>
 </html>

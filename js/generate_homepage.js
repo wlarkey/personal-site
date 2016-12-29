@@ -19,8 +19,9 @@ function loadcontent() {
     return (this.nodeType == 3);
   }).remove();
 
+  // GENERATE MAIN CONTENT
   while(counter < numOfArticles) {
-    content = content + '<div class="jumbotron" style="margin-right: 25px;">' +
+    content = content + '<div class="jumbotron">' +
     ' <div class="article_title">' +
     ' <h3>' + article + '</h3> <br />' +
     ' </div>' +
@@ -37,13 +38,14 @@ function loadcontent() {
   content = '';
   counter = 0;
 
+  // GENERATE THUMBNAIL CONTENT
   while(counter < numOfSide) {
     content = content + '<div class="jumbotron">' +
-    ' <div class="article_title">' +
-    ' <p>' + thumbnail + '</p> <br />' +
+    ' <div class="thumb_title">' +
+    ' <h4>' + thumbnail + '</h4> <br />' +
     ' </div>' +
-    ' <div class="article_text">' +
-    ' <p>' + thumbnail_text + '</p> <br />' +
+    ' <div class="thumb_text">' +
+    ' <h6>' + thumbnail_text + '</h6> <br />' +
     ' </div>' +
     ' </div>';
     counter++;
