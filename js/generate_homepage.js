@@ -21,13 +21,15 @@ function loadcontent() {
 
   // GENERATE MAIN CONTENT
   while(counter < numOfArticles) {
-    content = content + '<div class="jumbotron">' +
-    ' <div class="article_title">' +
-    ' <h3>' + article + '</h3> <br />' +
-    ' </div>' +
-    ' <div class="article_text">' +
-    ' <p>' + article_text + '</p> <br />' +
-    ' </div>' +
+    content = content +
+    ' <div class="jumbotron">' +
+      ' <div class="article_title">' +
+        ' <h3>' + article + '</h3> <br />' +
+      ' </div>' +
+      ' <img src="http://lorempixel.com/400/200">' +
+      ' <div class="article_text">' +
+        ' <p>' + article_text + '</p> <br />' +
+      ' </div>' +
     ' </div>';
     counter++;
   }
@@ -40,13 +42,18 @@ function loadcontent() {
 
   // GENERATE THUMBNAIL CONTENT
   while(counter < numOfSide) {
-    content = content + '<div class="jumbotron">' +
-    ' <div class="thumb_title">' +
-    ' <h4>' + thumbnail + '</h4> <br />' +
-    ' </div>' +
-    ' <div class="thumb_text">' +
-    ' <h6>' + thumbnail_text + '</h6> <br />' +
-    ' </div>' +
+    content = content +
+
+    '<div class="jumbotron">' +
+      '<button type="button" class="btn btn-block">' +
+        ' <div class="thumb_title">' +
+          ' <h4>' + thumbnail + '</h4> <br />' +
+        ' </div>' +
+        ' <img src="http://lorempixel.com/400/200">' +
+        ' <div class="thumb_text">' +
+          ' <h6>' + thumbnail_text + '</h6> <br />' +
+        ' </div>' +
+      '</button>' +
     ' </div>';
     counter++;
   }
