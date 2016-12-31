@@ -1,14 +1,10 @@
-function loadcontent() {
+function loadProj() {
 
   var page = document.getElementById('mainpage');
-  var aside = document.getElementById('sidebar');
   var content = '';
 
   var article = 'Hello There!';
   var article_text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. ';
-
-  var thumbnail = 'What\'s This?';
-  var thumbnail_text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.';
 
   var numOfArticles = 10;
   var numOfSide = 5;
@@ -30,30 +26,6 @@ function loadcontent() {
   }
 
   page.innerHTML = content;
-
-  // RESET COUNTERS
-  content = '';
-  counter = 0;
-
-  // GENERATE THUMBNAIL CONTENT
-  while(counter < numOfSide) {
-    content = content +
-
-    '<div class="jumbotron">' +
-      '<button type="button" class="btn btn-block">' +
-        ' <div class="thumb_title">' +
-          ' <h4>' + thumbnail + '</h4> <br />' +
-        ' </div>' +
-        ' <img src="http://lorempixel.com/400/200">' +
-        ' <div class="thumb_text">' +
-          ' <h6>' + thumbnail_text + '</h6> <br />' +
-        ' </div>' +
-      '</button>' +
-    ' </div>';
-    counter++;
-  }
-
-  aside.innerHTML = content;
 
   // RESET COUNTERS
   content = '';
