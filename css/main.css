@@ -213,6 +213,11 @@ img {
   margin-top: 70px;
 }
 
+.audioCenter {
+  display: table;
+  margin: 10px auto;
+}
+
 #sidebar_title {
   font-family: sans-serif;
   font-size: 2em;

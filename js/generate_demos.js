@@ -17,7 +17,7 @@ function loadDemo() {
   content += '<h1>VO Demos</h1> <h3>' + headline + '</h3>' +
     '<div class="container">' +
       '<div id="pallette" class="row">' +
-        '<div id="animInPic">' +
+        '<div id="animInPic" class="hidden-xs">' +
           '<img src="pics/wlarkey.jpg">' +
         '</div>' +
       '</div>' +
@@ -38,6 +38,9 @@ function loadDemo() {
       ' </div>' +
       ' <img src="http://lorempixel.com/400/200">' +
       ' <div class="article_text">' +
+      ' <div class="container-fluid audioCenter">' +
+        ' <audio src="test.mp3" controls>Your browser does not support HTML5 audio.</audio>' +
+      ' </div>' +
         ' <p>' + article_text + '</p> <br />' +
       ' </div>' +
     ' </div>';
