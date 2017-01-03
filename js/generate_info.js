@@ -11,6 +11,9 @@ function loadInfo() {
   var numOfSide = 5;
   var counter = 0;
 
+  var github = '\'https://github.com/wlarkey\''
+  var linkedIn = '\'https://www.linkedin.com/in/wyatt-larkey-a8a15111a\'';
+
   // GENERATE OPENING CONTENT
   content += '<h1>Who is Wyatt Larkey?</h1> <h3>Here you can find my resume, and other professional information.</h3>' +
     '<div class="container">' +
@@ -22,12 +25,12 @@ function loadInfo() {
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
-          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+          '<button onclick="location.href=' + github + '" type="button" class="btn btn-block">' +
               '<img src="pics/wlarkey.jpg">' +
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
-          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+          '<button onclick="location.href=' + linkedIn + '" type="button" class="btn btn-block">' +
               '<img src="pics/wlarkey.jpg">' +
           '</button>' +
         '</div>' +
