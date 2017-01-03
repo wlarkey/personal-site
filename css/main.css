@@ -144,6 +144,35 @@ img {
   padding-top: 20px;
 }
 
+@keyframes pic {
+  from {right: 100%;}
+  to {right: 0%;}
+}
+
+@keyframes info {
+  from {right: 100%;}
+  to {right: 0%;}
+}
+
+#animInPic img {
+  position: relative;
+  animation-name: pic;
+  animation-duration: 1.5s;
+  right: 0%;
+  height: 300px;
+  margin:auto;
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#animInText h3 {
+  position: relative;
+  animation-name: info;
+  animation-duration: 1.5s;
+  right: 0%;
+}
+
 #sidebar_title {
   font-family: sans-serif;
   font-size: 2em;

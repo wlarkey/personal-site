@@ -2,6 +2,7 @@ function loadcontent() {
 
   var page = document.getElementById('mainpage');
   var aside = document.getElementById('sidebar');
+  var opening = document.getElementById('welcome');
   var content = '';
 
   var article = 'Hello There!';
@@ -13,6 +14,25 @@ function loadcontent() {
   var numOfArticles = 10;
   var numOfSide = 5;
   var counter = 0;
+
+  // GENERATE OPENING CONTENT
+  content += '<h1>Hello World!</h1> <h3>Wyatt Larkey\'s Offical Webpage</h3>' +
+    '<div class="container">' +
+      '<div class="row">' +
+        '<div id="animInPic" class="col-lg-6 col-md-6">' +
+          '<img src="pics/wlarkey.jpg">' +
+        '</div>' +
+        '<div id="animInText" class="col-lg-6 col-md-6 hidden-sm hidden-xs">' +
+          '<h3>Here is some text and Stuff...</h3>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+
+  opening.innerHTML = content;
+
+  // RESET COUNTERS
+  content = '';
+  counter = 0;
 
   // GENERATE MAIN CONTENT
   while(counter < numOfArticles) {
