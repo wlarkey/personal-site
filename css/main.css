@@ -145,13 +145,13 @@ img {
 }
 
 @keyframes pic {
-  from {right: 100%;}
+  from {right: 300%;}
   to {right: 0%;}
 }
 
 @keyframes info {
-  from {right: 200%;}
-  to {right: 30%;}
+  from {right: 300%;}
+  to {right: 25%;}
 }
 
 /* #pallette {
@@ -169,10 +169,11 @@ img {
   animation-duration: 1.5s;
   right: 0%;
   height: 300px;
-  margin:auto;
+  margin: auto;
   margin-top: 30px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  padding: 5px;
 }
 
 #animInText h2 {
@@ -180,7 +181,7 @@ img {
   animation-name: info;
   animation-duration: 1.5s;
   padding-top: 50px;
-  right: 30%;
+  right: 25%;
   padding-left: 0px;
 }
 
@@ -188,7 +189,7 @@ img {
   position: relative;
   animation-name: info;
   animation-duration: 1.5s;
-  right: 30%;
+  right: 25%;
   padding-left: 0px;
 }
 
@@ -198,6 +199,18 @@ img {
   animation-duration: 1.5s;
   right: 30%;
   text-align: right;
+}
+
+#animInText button {
+  position: relative;
+  animation-name: pic;
+  animation-duration: 1.5s;
+  right: 0%;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  padding-top: 5px;
+  margin-top: 70px;
 }
 
 #sidebar_title {

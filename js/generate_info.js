@@ -1,6 +1,7 @@
 function loadInfo() {
 
   var page = document.getElementById('mainpage');
+  var opening = document.getElementById('welcome');
   var content = '';
 
   var article = 'Hello There!';
@@ -9,6 +10,36 @@ function loadInfo() {
   var numOfArticles = 10;
   var numOfSide = 5;
   var counter = 0;
+
+  // GENERATE OPENING CONTENT
+  content += '<h1>Who is Wyatt Larkey?</h1> <h3>Here you can find my resume, and other professional information.</h3>' +
+    '<div class="container">' +
+      '<div id="pallette" class="row">' +
+
+        '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
+          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+              '<img src="pics/wlarkey.jpg">' +
+          '</button>' +
+        '</div>' +
+        '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
+          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+              '<img src="pics/wlarkey.jpg">' +
+          '</button>' +
+        '</div>' +
+        '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
+          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+              '<img src="pics/wlarkey.jpg">' +
+          '</button>' +
+        '</div>' +
+
+      '</div>' +
+    '</div>';
+
+  opening.innerHTML = content;
+
+  // RESET COUNTERS
+  content = '';
+  counter = 0;
 
   // GENERATE MAIN CONTENT
   while(counter < numOfArticles) {
