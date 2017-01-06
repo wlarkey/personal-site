@@ -21,17 +21,20 @@ function loadInfo() {
 
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
           '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
-              '<img src="pics/wlarkey.jpg">' +
+              '<img src="pics/resume.jpg">' +
+              '<h5>My Resume</h5>' +
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
           '<button onclick="location.href=' + github + '" type="button" class="btn btn-block">' +
-              '<img src="pics/wlarkey.jpg">' +
+              '<img src="pics/github.jpg">' +
+              '<h5>My GitHub</h5>' +
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
           '<button onclick="location.href=' + linkedIn + '" type="button" class="btn btn-block">' +
-              '<img src="pics/wlarkey.jpg">' +
+              '<img src="pics/linkedin.jpg">' +
+              '<h5>My LinkedIn</h5>' +
           '</button>' +
         '</div>' +
 

@@ -18,7 +18,7 @@ function loadProj() {
     '<div class="container">' +
       '<div id="pallette" class="row">' +
         '<div id="animInPic">' +
-          '<img src="pics/wlarkey.jpg">' +
+          '<img src="pics/projects.jpg">' +
         '</div>' +
       '</div>' +
     '</div>';

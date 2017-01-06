@@ -163,6 +163,11 @@ img {
   padding-bottom: 30px;
 }*/
 
+button h5 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
 #animInPic img {
   position: relative;
   animation-name: pic;

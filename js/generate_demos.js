@@ -18,7 +18,7 @@ function loadDemo() {
     '<div class="container">' +
       '<div id="pallette" class="row">' +
         '<div id="animInPic" class="hidden-xs">' +
-          '<img src="pics/wlarkey.jpg">' +
+          '<img src="pics/demos.jpg">' +
         '</div>' +
       '</div>' +
     '</div>';
