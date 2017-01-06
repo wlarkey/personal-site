@@ -27,13 +27,13 @@ function loadInfo() {
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
-          '<button onclick="location.href=' + github + '" type="button" class="btn btn-block">' +
+          '<button onclick="window.open(' + github + ')" type="button" class="btn btn-block">' +
               '<img src="pics/github.jpg">' +
               '<h5>My GitHub</h5>' +
           '</button>' +
         '</div>' +
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
-          '<button onclick="location.href=' + linkedIn + '" type="button" class="btn btn-block">' +
+          '<button onclick="window.open(' + linkedIn + ')" type="button" class="btn btn-block">' +
               '<img src="pics/linkedin.jpg">' +
               '<h5>My LinkedIn</h5>' +
           '</button>' +
@@ -55,7 +55,7 @@ function loadInfo() {
       ' <div class="article_title">' +
         ' <h3>' + article + '</h3> <br />' +
       ' </div>' +
-      ' <img src="http://lorempixel.com/400/200">' +
+      ' <img class="img-thumbnail" src="http://lorempixel.com/400/200">' +
       ' <div class="article_text">' +
         ' <p>' + article_text + '</p> <br />' +
       ' </div>' +

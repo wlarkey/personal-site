@@ -46,7 +46,7 @@ function loadcontent() {
       ' <div class="article_title">' +
         ' <h3>' + article + '</h3> <br />' +
       ' </div>' +
-      ' <img src="http://lorempixel.com/400/200">' +
+      ' <img class="img-thumbnail" src="http://lorempixel.com/400/200">' +
       ' <div class="article_text">' +
         ' <p>' + article_text + '</p> <br />' +
       ' </div>' +
@@ -69,7 +69,7 @@ function loadcontent() {
         ' <div class="thumb_title">' +
           ' <h4>' + thumbnail + '</h4> <br />' +
         ' </div>' +
-        ' <img src="http://lorempixel.com/400/200">' +
+        ' <img class="img-thumbnail" src="http://lorempixel.com/400/200">' +
         ' <div class="thumb_text">' +
           ' <h6>' + thumbnail_text + '</h6> <br />' +
         ' </div>' +

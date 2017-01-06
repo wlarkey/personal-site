@@ -36,7 +36,7 @@ function loadDemo() {
       ' <div class="article_title">' +
         ' <h3>' + article + '</h3> <br />' +
       ' </div>' +
-      ' <img src="http://lorempixel.com/400/200">' +
+      ' <img class="img-thumbnail" src="http://lorempixel.com/400/200">' +
       ' <div class="article_text">' +
       ' <div class="container-fluid audioCenter">' +
         ' <audio src="test.mp3" controls>Your browser does not support HTML5 audio.</audio>' +
