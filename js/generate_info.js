@@ -11,7 +11,8 @@ function loadInfo() {
   var numOfSide = 5;
   var counter = 0;
 
-  var github = '\'https://github.com/wlarkey\''
+  var file = 'resume.pdf';
+  var github = '\'https://github.com/wlarkey\'';
   var linkedIn = '\'https://www.linkedin.com/in/wyatt-larkey-a8a15111a\'';
 
   // GENERATE OPENING CONTENT
@@ -20,7 +21,7 @@ function loadInfo() {
       '<div id="pallette" class="row">' +
 
         '<div id="animInText" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">' +
-          '<button type="button" class="btn btn-block" href="file.txt" download="file.txt">' +
+          '<button onclick="location.href=\'Wyatt_Larkey_resume.docx\'" type="button" class="btn btn-block">' +
               '<img src="pics/resume.jpg">' +
               '<h5>My Resume</h5>' +
           '</button>' +
